@@ -1,0 +1,60 @@
+body{
+    background-color: #c9d2c8;
+    font-family: "Candara", Helvetica Neue, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.well-image{
+    width: 100%;
+    height: 162px;
+}
+
+.top-buffer{
+    margin-top: 30px;
+}
+
+.answer{
+    padding:15px 20px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+}
+
+.answer:hover{
+    cursor: pointer;
+}
+
+.heading{
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 10px;
+    background: black;
+    color: whitesmoke;
+}
+
+.image-answer{
+    cursor: pointer;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-answer img{
+    width: 100%;
+    height: auto;
+}
+
+.image-selected{
+    border: 3px solid #56afdc;
+}
+
+.image-answer.bg-success{
+    border: 3px solid #5ae640;
+}
+
+.image-answer.bg-danger{
+    border: 3px solid #b74848;
+}
